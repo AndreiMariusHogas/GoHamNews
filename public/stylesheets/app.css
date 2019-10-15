@@ -1,0 +1,25 @@
+hr {
+    height: 5px;
+    border: 1;
+    box-shadow: inset 0 9px 9px -3px rgba(255, 255, 255, 1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    max-width:550px;
+    }
+#newsArticle {
+    max-width:1050px;
+}
+#navbarMain {
+    background-color:#000000;
+    margin-bottom:20px;
+}
+#navToTop{
+    position:fixed;
+    top:95vh;
+    left:1vw;
+}
+
+

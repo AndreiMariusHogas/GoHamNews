@@ -1,0 +1,22 @@
+<% include partials/header %>
+<% let post = news.articles; %>
+<div id="newsArticle" class="container">
+        
+                <% for (let i = 0; i < post.length; i++){%>   
+                                <div class="card m-5 p-2">
+                                        <img class="card-img-top" src="<%=post[i].urlToImage%>" alt="">
+                                        <div class="card-body">
+                                          <h5 class="card-title"><%=post[i].title%></h5>
+                                          <p class="card-text"><%=post[i].description%></p>
+                                          <p class="card-text"><small class="text-muted">Published On <%=post[i].publishedAt.substring(0,10)%></small></p>
+                                          <p class="card-text">By <%=post[i].source.name%></p>
+                                          <a class="btn btn-lg btn-info" href="<%=post[i].url%>">Read More</a>
+                                        </div>
+                                    
+                                </div> 
+                    <%}%>
+<div></div>
+<div class="container justify-content-center">
+<a id="navToTop" class="btn btn-info"href="/business">Back To Top</a>
+</div>
+<% include partials/footer %>
