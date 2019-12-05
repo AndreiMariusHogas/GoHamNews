@@ -1,4 +1,4 @@
-<h2><strong>GoHAMNews</strong><h2>
+<h2><strong>GoHAMNews</strong></h2>
 <br>
 Your daily dose of news
 <br>
