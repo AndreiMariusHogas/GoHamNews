@@ -1,8 +1,12 @@
-#<strong>GoHAMNews<strong>
+<h2><strong>GoHAMNews</strong><h2>
 <br>
 Your daily dose of news
 <br>
+<br>
+<br>
 #Install node & npm from  https://nodejs.org/en/
+<br>
+<br>
 <br>
 #Check for node installation using: node -v in your command line
 <br>
@@ -11,6 +15,8 @@ You should see something like:
 <em>$ node -v</em>
 <br>
 <em>v10.16.3</em>
+<br>
+<br>
 <br>
 #After node installation:
 <br>
@@ -26,7 +32,7 @@ Check for version in package.json
 <br>
 node app.js 
 <br>
-#Built With:
+<h4>Built With:</h4>
 <br> 
 -NodeJS
 <br>
